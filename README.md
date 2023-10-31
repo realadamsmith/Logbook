@@ -1,5 +1,15 @@
 # Getting Started with Create React App
 
+https://coordinators-2024.web.app
+
+10/12/23
+Okay so I have no idea how this project was launched on Heroku, and i want to see the page,
+But npm start doesnt do anything.
+So im gonna try building
+- actually it was because we do not have node modules, so we npm install
+npm start works now
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

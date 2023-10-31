@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react';
+import { IonReactRouter } from '@ionic/react-router';
+import { Redirect, Route, BrowserRouter, Switch } from 'react-router-dom';
 
-function App() {
+import Page from './pages/Page';
+
+setupIonicReact();
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+      <Switch>
+            <Route path="/" exact={true}>
+              <Redirect to="/page/Inbox" />
+            </Route>
+            <Route path="/page/:name" exact={true}>
+              <Page />
+            </Route>
+      </Switch>
+      </BrowserRouter>
     </div>
   );
-}
+};
 
 export default App;
