@@ -57,7 +57,7 @@ const Page = () => {
           </div>
           <div className="centerDivider">
             <h3>
-             References and connections to various companies and organizations always available for request.
+             References and connections to various companies, organizations, or people always available for request.
             </h3>
           </div>
         </div>
