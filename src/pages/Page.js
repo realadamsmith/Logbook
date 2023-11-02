@@ -7,6 +7,8 @@ import DNASU from "../Assets/DNASUlab.jpg";
 import Little from "../Assets/AdamAKLFrat.png";
 import StarW from "../Assets/FalconMillennium.jpeg";
 import Comb from "../Assets/CRs.jpeg";
+import Curiox1 from "../Assets/20230628_172041.jpg"
+import Curiox2 from "../Assets/IMG_1482.jpeg"
 import Footer from './../components/Footer';
 
 const Page = () => {
@@ -18,11 +20,11 @@ const Page = () => {
           <div>
             <p>
               I'm not a mercenary but a
-              missionary, and I'm here to make sure we leave the world better than we
+              missionary, and I'm here to add to leaving the world better than we
               found it by making sci-fi research easier for customers.
             </p>
             <p>
-              
+              I am also fascinated by the constant improvement and shift from small to big, of organizations, teams, engineering, and am even more excited to execute on such process improvements long term for the teams I work for. These days I've found it very quick to surpass the business knowledge of team members and some higher ups, and that allows me to reach the recognition necessary to propose process improvements in the areas I'm assigned and interact with.
             </p>
             <p>
               I want to empower the growth of people who show potential to be
@@ -55,7 +57,7 @@ const Page = () => {
           </div>
           <div className="centerDivider">
             <h3>
-              {/* adamsmith@asu.edu to email for Teams/Zoom or 4802046697 scheduling */}
+             References and connections to various companies and organizations always available for request.
             </h3>
           </div>
         </div>
@@ -64,16 +66,17 @@ const Page = () => {
         <ul>
           <div className="media">
             <div className="overlay"></div>
-            <img src={Lab1} alt="" />
+            <img src={Curiox2} alt="" />
             <div className="image-details">
-              <p>With Maley Lab & Shrinath my left</p>
+              <p>Introducing our installation, Curiox</p>
             </div>
           </div>
+          
           <div className="media">
             <div className="overlay"></div>
             <img src={SODA1} alt="" />
             <div className="image-details">
-              <p>Software club crew</p>
+              <p>ASU Software club crew</p>
             </div>
           </div>
           <div className="media">
@@ -81,6 +84,13 @@ const Page = () => {
             <img src={Shapers} alt="" />
             <div className="image-details">
               <p>Volunteering as part of the Phoenix UN Shapers</p>
+            </div>
+          </div>
+          <div className="media">
+            <div className="overlay"></div>
+            <img src={Lab1} alt="" />
+            <div className="image-details">
+              <p>With Maley Lab & Shrinath my left 2018</p>
             </div>
           </div>
           {/* <div className="media">
@@ -92,6 +102,13 @@ const Page = () => {
           </div> */}
         </ul>
         <ul>
+        <div className="media">
+            <div className="overlay"></div>
+            <img src={Curiox1} alt="" />
+            <div className="image-details">
+              <p>Installing and testing everything in this anonymous lab</p>
+            </div>
+          </div>
           <div className="media">
             <div className="overlay"></div>
             <img src={Tristar} alt="" />
@@ -103,7 +120,7 @@ const Page = () => {
             <div className="overlay"></div>
             <img src={Comb} alt="" />
             <div className="image-details">
-              <p>Isolating PE2400 CHN issues by inspecting reagent tubes</p>
+              <p>Isolating PE2400 CHN issues by inspecting reagent tubes in ASU Goldwater Chemical Core Facility</p>
             </div>
           </div>
           <div className="media">
