@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/realadamsmith/Logbook/static/css/main.bc210652.css",
+    "main.js": "/realadamsmith/Logbook/static/js/main.f11a9618.js",
+    "static/js/738.f98d1230.chunk.js": "/realadamsmith/Logbook/static/js/738.f98d1230.chunk.js",
+    "static/js/3.787d0cce.chunk.js": "/realadamsmith/Logbook/static/js/3.787d0cce.chunk.js",
+    "static/js/372.16f2d8db.chunk.js": "/realadamsmith/Logbook/static/js/372.16f2d8db.chunk.js",
+    "static/js/856.8a6351f7.chunk.js": "/realadamsmith/Logbook/static/js/856.8a6351f7.chunk.js",
+    "static/media/Apr16NorthMountain4.jpeg": "/realadamsmith/Logbook/static/media/Apr16NorthMountain4.ff1251ec4198e3bf4d20.jpeg",
+    "static/media/CRs.jpeg": "/realadamsmith/Logbook/static/media/CRs.67c00fbdfd15bb726ca4.jpeg",
+    "static/media/FalconMillennium.jpeg": "/realadamsmith/Logbook/static/media/FalconMillennium.19275162d1d1350210d7.jpeg",
+    "static/media/Tristar3020.jpeg": "/realadamsmith/Logbook/static/media/Tristar3020.472b02b005b87163ee73.jpeg",
+    "static/media/DNASUlab.jpg": "/realadamsmith/Logbook/static/media/DNASUlab.975b5159da41347292c6.jpg",
+    "static/media/AdamAKLFrat.png": "/realadamsmith/Logbook/static/media/AdamAKLFrat.432a5dfdfcf86740c7d8.png",
+    "static/media/20230628_172041.jpg": "/realadamsmith/Logbook/static/media/20230628_172041.6b6b563824b64d447d90.jpg",
+    "static/media/IMG_2960.jpg": "/realadamsmith/Logbook/static/media/IMG_2960.0dd9113368ba156f5df5.jpg",
+    "static/media/IMG_1482.jpeg": "/realadamsmith/Logbook/static/media/IMG_1482.360848986289cbf8ab04.jpeg",
+    "static/media/MaleyLabChristmas.jpeg": "/realadamsmith/Logbook/static/media/MaleyLabChristmas.cb8e4e5077401edf56a5.jpeg",
+    "index.html": "/realadamsmith/Logbook/index.html",
+    "main.bc210652.css.map": "/realadamsmith/Logbook/static/css/main.bc210652.css.map",
+    "main.f11a9618.js.map": "/realadamsmith/Logbook/static/js/main.f11a9618.js.map",
+    "738.f98d1230.chunk.js.map": "/realadamsmith/Logbook/static/js/738.f98d1230.chunk.js.map",
+    "3.787d0cce.chunk.js.map": "/realadamsmith/Logbook/static/js/3.787d0cce.chunk.js.map",
+    "372.16f2d8db.chunk.js.map": "/realadamsmith/Logbook/static/js/372.16f2d8db.chunk.js.map",
+    "856.8a6351f7.chunk.js.map": "/realadamsmith/Logbook/static/js/856.8a6351f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc210652.css",
+    "static/js/main.f11a9618.js"
+  ]
+}
