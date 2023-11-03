@@ -4,7 +4,6 @@ import SODA1 from "../Assets/IMG_2960.jpg";
 import Tristar from "../Assets/Tristar3020.jpeg";
 import Shapers from "../Assets/Apr16NorthMountain4.jpeg";
 import DNASU from "../Assets/DNASUlab.jpg";
-import Little from "../Assets/AdamAKLFrat.png";
 import StarW from "../Assets/FalconMillennium.jpeg";
 import Comb from "../Assets/CRs.jpeg";
 import Curiox1 from "../Assets/20230628_172041.jpg"

@@ -1,6 +1,6 @@
 import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { Redirect, Route, BrowserRouter, Switch } from 'react-router-dom';
+import { Redirect, Route, BrowserRouter, Switch, HashRouter  } from 'react-router-dom';
 
 import Page from './pages/Page';
 
@@ -9,7 +9,7 @@ setupIonicReact();
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
+    <HashRouter>
       <Switch>
             <Route path="/" exact={true}>
               <Redirect to="/page/Inbox" />
@@ -18,7 +18,7 @@ const App = () => {
               <Page />
             </Route>
       </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 };
