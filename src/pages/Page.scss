@@ -1,0 +1,113 @@
+.PageWrapper{
+    margin: 2rem auto;
+    width: 50vw;
+    display: flex;
+    overflow: auto;
+}
+.centerDivider{
+    margin-top: 2rem;
+    text-align: center;
+
+}
+.li{
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+.PageWrapper2{
+    margin: 2rem auto;
+    width: 100vw;
+    display: flex;
+    overflow: auto;
+    // object-fit: contain;
+    // background: rgb(241, 243, 244);
+   
+}
+.HeroContent{
+    overflow: auto;
+}
+.image-details{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    z-index: 4;
+    position: absolute;
+    top: 100%;
+    opacity: 0;
+    transition: all ease-in-out 0.2s;
+    padding: 2rem;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.media {
+    max-width: 50vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .media:hover {
+    cursor: pointer;
+  }
+  
+  .overlay {
+    background: rgba(44, 45, 46, 0.223);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    opacity: 0;
+    transition: all ease-in-out 0.2s;
+  }
+  
+  .media:hover .overlay {
+    opacity: 1;
+  }
+  
+  img {
+    width: 100%;
+    z-index: -1;
+    margin: auto;
+    transform: scale(1);
+    transition: all ease-in-out 0.2s;
+  }
+  
+  .media:hover img {
+    transform: scale(1.02);
+    filter: blur(0.5px);
+  }
+  
+  .image-details {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    z-index: 4;
+    position: absolute;
+    top: 100%;
+    opacity: 0;
+    transition: all ease-in-out 0.2s;
+  }
+  
+  .media:hover .image-details {
+    top: 40%;
+    opacity: 1;
+  }
+
+.hero1{
+   
+}
+.container{
+
+}
+
+@media screen and (max-width: 768px) {
+  .PageWrapper{
+      width: 85vw;
+  }
+}
