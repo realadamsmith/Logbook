@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Logbook/static/css/main.8524925e.css",
-    "main.js": "/Logbook/static/js/main.23107fe5.js",
+    "main.js": "/Logbook/static/js/main.2f400ea6.js",
     "static/js/738.f98d1230.chunk.js": "/Logbook/static/js/738.f98d1230.chunk.js",
     "static/js/3.787d0cce.chunk.js": "/Logbook/static/js/3.787d0cce.chunk.js",
     "static/js/372.16f2d8db.chunk.js": "/Logbook/static/js/372.16f2d8db.chunk.js",
@@ -17,7 +17,7 @@
     "static/media/MaleyLabChristmas.jpeg": "/Logbook/static/media/MaleyLabChristmas.cb8e4e5077401edf56a5.jpeg",
     "index.html": "/Logbook/index.html",
     "main.8524925e.css.map": "/Logbook/static/css/main.8524925e.css.map",
-    "main.23107fe5.js.map": "/Logbook/static/js/main.23107fe5.js.map",
+    "main.2f400ea6.js.map": "/Logbook/static/js/main.2f400ea6.js.map",
     "738.f98d1230.chunk.js.map": "/Logbook/static/js/738.f98d1230.chunk.js.map",
     "3.787d0cce.chunk.js.map": "/Logbook/static/js/3.787d0cce.chunk.js.map",
     "372.16f2d8db.chunk.js.map": "/Logbook/static/js/372.16f2d8db.chunk.js.map",
@@ -25,6 +25,6 @@
   },
   "entrypoints": [
     "static/css/main.8524925e.css",
-    "static/js/main.23107fe5.js"
+    "static/js/main.2f400ea6.js"
   ]
 }
