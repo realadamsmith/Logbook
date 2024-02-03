@@ -1,113 +1,143 @@
-.PageWrapper{
-    margin: 2rem auto;
-    width: 50vw;
-    display: flex;
-    overflow: auto;
+.PageWrapper {
+  margin: 2rem auto;
+  width: 50vw;
+  display: flex;
+  overflow: auto;
 }
-.centerDivider{
-    margin-top: 2rem;
-    text-align: center;
-
+.centerDivider {
+  margin-top: 2rem;
+  text-align: center;
 }
-.li{
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
+.li {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }
-.PageWrapper2{
-    margin: 2rem auto;
-    width: 100vw;
-    display: flex;
-    overflow: auto;
-    // object-fit: contain;
-    // background: rgb(241, 243, 244);
-   
+.PageWrapper2 {
+  margin: 2rem auto;
+  width: 100vw;
+  display: flex;
+  overflow: auto;
+  // object-fit: contain;
+  // background: rgb(241, 243, 244);
 }
-.HeroContent{
-    overflow: auto;
+.PageWrapper3 {
+  margin: 2rem auto;
+  display: flex;
+  overflow: auto;
+  // object-fit: contain;
+  // background: rgb(241, 243, 244);
 }
-.image-details{
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    z-index: 4;
-    position: absolute;
-    top: 100%;
-    opacity: 0;
-    transition: all ease-in-out 0.2s;
-    padding: 2rem;
+.HeroContent {
+  overflow: auto;
 }
-ul{
-    margin: 0;
-    padding: 0;
+.image-details {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  z-index: 4;
+  position: absolute;
+  top: 100%;
+  opacity: 0;
+  transition: all ease-in-out 0.2s;
+  padding: 2rem;
+}
+ul {
+  margin: 0;
+  padding: 0;
 }
 .media {
-    max-width: 50vw;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .media:hover {
-    cursor: pointer;
-  }
-  
-  .overlay {
-    background: rgba(44, 45, 46, 0.223);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: 3;
-    opacity: 0;
-    transition: all ease-in-out 0.2s;
-  }
-  
-  .media:hover .overlay {
-    opacity: 1;
-  }
-  
-  img {
-    width: 100%;
-    z-index: -1;
-    margin: auto;
-    transform: scale(1);
-    transition: all ease-in-out 0.2s;
-  }
-  
-  .media:hover img {
-    transform: scale(1.02);
-    filter: blur(0.5px);
-  }
-  
-  .image-details {
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    z-index: 4;
-    position: absolute;
-    top: 100%;
-    opacity: 0;
-    transition: all ease-in-out 0.2s;
-  }
-  
-  .media:hover .image-details {
-    top: 40%;
-    opacity: 1;
-  }
-
-.hero1{
-   
+  max-width: 50vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
 }
-.container{
+.media:hover .overlay {
+  opacity: 1;
+}
+.media:hover img {
+  transform: scale(1.02);
+  filter: blur(0.5px);
+}
+.media:hover .image-details {
+  top: 40%;
+  opacity: 1;
+}
+.mediaproj:hover img {
+  transform: scale(1.02);
+  filter: blur(0.5px);
+}
+.mediaproj:hover .image-details {
+  top: 30%;
+  opacity: 1;
+}
+.mediaproj {
+  cursor: pointer; /* Changes the cursor to the pointer hand */
+  border: 3px solid transparent;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px; /* Button width */
+  height: 50px; /* Button height */
+  background-color: #f0f0f0; /* Light gray background */
+  border: 3px solid transparent; /* Default border to prevent layout shift on hover */
+  border-radius: 14px; /* Rounded corners like iPhone buttons */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease; /* Smooth transition */
+}
 
+.mediaproj:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-color: rgb(29, 161, 249);
+  cursor: pointer;
+  opacity: 1;
+
+}
+
+.overlay {
+  background: rgba(44, 45, 46, 0.223);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  opacity: 0;
+  transition: all ease-in-out 0.2s;
+}
+
+img {
+  width: 100%;
+  z-index: -1;
+  margin: auto;
+  transform: scale(1);
+  transition: all ease-in-out 0.2s;
+}
+
+.image-details {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  z-index: 4;
+  position: absolute;
+  top: 100%;
+  opacity: 0;
+  transition: all ease-in-out 0.2s;
+}
+
+.hero1 {
+}
+.container {
 }
 
 @media screen and (max-width: 768px) {
-  .PageWrapper{
-      width: 85vw;
+  .PageWrapper {
+    width: 85vw;
   }
 }
