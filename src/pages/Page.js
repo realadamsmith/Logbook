@@ -17,18 +17,15 @@ const Page = () => {
         <div className="HeroContent">
           <h1>Adam C Smith</h1>
           <div>
+            <p></p>
             <p>
-
-            </p>
-            <p>
-              I am fascinated by the constant improvement and shift from
-              small to big, of organizations, teams, engineering, and am 
-               excited to execute on such process improvements long term for
-              the team I work for. These days I've found it very quick to
-              be on par with the knowledge of team members and some higher
-              ups, and that allows me to reach the recognition necessary to
-              propose process improvements in the areas I'm assigned and
-              interact with.
+              I am fascinated by the constant improvement and shift from small
+              to big, of organizations, teams, engineering, and am excited to
+              execute on such process improvements long term for the team I work
+              for. These days I've found it very quick to be on par with the
+              knowledge of team members and some higher ups, and that allows me
+              to reach the recognition necessary to propose process improvements
+              in the areas I'm assigned and interact with.
             </p>
             <p>
               I want to empower the growth of people who show potential to be
@@ -60,39 +57,86 @@ const Page = () => {
           <div className="centerDivider">
             <h3>Here are some projects</h3>
           </div>
-          
+
           <div className="PageWrapper3">
             <ul>
-              <a href="https://github.com/realadamsmith/ArchivedApp" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }} >
+              <a
+                href="https://github.com/realadamsmith/ArchivedApp"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+              >
                 <div className="mediaproj">
                   <div className="overlay"></div>
-                    <p>Lagruni (ArchivedApp)</p>
+                  <p>Lagruni (ArchivedApp)</p>
                 </div>
               </a>
-              <a href="https://github.com/realadamsmith/ArchivedApp" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }} >
-              <div className="mediaproj">
-                <div className="overlay"></div>
+              <a
+                href="https://github.com/realadamsmith/ArchivedApp"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+              >
+                <div className="mediaproj">
+                  <div className="overlay"></div>
                   <p>MarketBuddy</p>
-              </div>
+                </div>
               </a>
-              <a href="https://github.com/realadamsmith/ArchivedApp" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }} >
-              <div className="mediaproj">
-                <div className="overlay"></div>
+              <a
+                href="https://github.com/realadamsmith/ArchivedApp"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+              >
+                <div className="mediaproj">
+                  <div className="overlay"></div>
                   <p>MeGraph</p>
-              </div>
+                </div>
               </a>
-              <a href="https://github.com/realadamsmith/ArchivedApp" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }} >
-              <div className="mediaproj">
-                <div className="overlay"></div>
+              <a
+                href="https://github.com/realadamsmith/ArchivedApp"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+              >
+                <div className="mediaproj">
+                  <div className="overlay"></div>
                   <p>MeGraphServer</p>
-              </div>
+                </div>
               </a>
-
             </ul>
           </div>
 
+          <div className="centerDivider">
+            <h3>Hobbies/traits include</h3>
+          </div>
+          <p>Randomizing all my accounts passwords and using authenticators.</p>
+          <p>Adding to my past 300 GPT4 conversations.</p>
+          <p>Adding to my playlists of informative youtube content.</p>
+          <a
+            href="https://youtube.com/playlist?list=PLoaKdfkiJuqZnaTFXnb_45JPAoLIBmpiB&si=Z76nhQ2FxYCWilf3"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none" }}
+          >
+            - Communications, Media & Technology (CMT)
+          </a>
+          <div></div>
+          <a
+            href="https://youtube.com/playlist?list=PLoaKdfkiJuqZgzJpz7zUzJfVKnRh35XPs&si=jYvUL5TLSqEA4NeE"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none" }}
+          >
+            - Changes in business
+          </a>
+          <p>Being nonchalant because I'm confident and calm with how I can identify additional impact areas.</p>
+          <div className="centerDivider">
+            <h3>Very old pictures, I don't know if i should add or remove.</h3>
+          </div>
         </div>
       </div>
+
       <div className="PageWrapper2">
         <ul>
           <div className="media">
