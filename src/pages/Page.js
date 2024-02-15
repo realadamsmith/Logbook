@@ -167,6 +167,19 @@ const Page = () => {
               </div>
             </a>
           </div>
+          <div className="rowprojects">
+            <a
+              href="https://github.com/realadamsmith/constrMGMTinternaltool"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="mediaproj">
+                <div className="overlay"></div>
+                <p>48 hour proj mgmt</p>
+              </div>
+            </a>
+          </div>
         </ul>
       </div>
 
