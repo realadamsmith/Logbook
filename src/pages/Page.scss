@@ -18,6 +18,8 @@
   width: 100vw;
   display: flex;
   overflow: auto;
+  margin: 0 auto !important; /* Center the element horizontally */
+
   // object-fit: contain;
   // background: rgb(241, 243, 244);
 }
@@ -25,9 +27,33 @@
   margin: 2rem auto;
   display: flex;
   overflow: auto;
+  
   // object-fit: contain;
   // background: rgb(241, 243, 244);
 }
+.PageWrapper4 {
+  margin: 2rem auto;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // object-fit: contain;
+  // background: rgb(241, 243, 244);
+}
+.rowprojects{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.container{
+  margin: 2rem auto;
+  width: 100vw;
+  display: flex;
+  overflow: auto;
+  margin: 0 auto !important;
+}
+
 .HeroContent {
   overflow: auto;
 }
@@ -55,6 +81,24 @@ ul {
   margin: 10px;
   overflow: hidden;
   position: relative;
+}
+.media2{
+  border-radius: 5px;
+  padding: 5px;
+  border: 2px solid transparent;
+
+}
+.media2:hover .overlay {
+  opacity: 1;
+  border-color: rgb(29, 161, 249);
+
+}
+.media2:hover img {
+  transform: scale(1.02);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-color: rgb(29, 161, 249);
+
+
 }
 .media:hover .overlay {
   opacity: 1;

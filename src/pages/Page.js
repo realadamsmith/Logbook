@@ -54,58 +54,6 @@ const Page = () => {
             <li>Gundam Seed/Destiny</li>
             <li>The Matrix</li>
           </div>
-          <div className="centerDivider">
-            <h3>Here are some projects</h3>
-          </div>
-
-          <div className="PageWrapper3">
-            <ul>
-              <a
-                href="https://github.com/realadamsmith/ArchivedApp"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ textDecoration: "none" }}
-              >
-                <div className="mediaproj">
-                  <div className="overlay"></div>
-                  <p>Lagruni (ArchivedApp)</p>
-                </div>
-              </a>
-              <a
-                href="https://github.com/realadamsmith/ArchivedApp"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ textDecoration: "none" }}
-              >
-                <div className="mediaproj">
-                  <div className="overlay"></div>
-                  <p>MarketBuddy</p>
-                </div>
-              </a>
-              <a
-                href="https://github.com/realadamsmith/ArchivedApp"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ textDecoration: "none" }}
-              >
-                <div className="mediaproj">
-                  <div className="overlay"></div>
-                  <p>MeGraph</p>
-                </div>
-              </a>
-              <a
-                href="https://github.com/realadamsmith/ArchivedApp"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ textDecoration: "none" }}
-              >
-                <div className="mediaproj">
-                  <div className="overlay"></div>
-                  <p>MeGraphServer</p>
-                </div>
-              </a>
-            </ul>
-          </div>
 
           <div className="centerDivider">
             <h3>Hobbies/traits include</h3>
@@ -130,13 +78,101 @@ const Page = () => {
           >
             - Changes in business
           </a>
-          <p>Being nonchalant because I'm confident and calm with how I can identify additional impact areas.</p>
-          <div className="centerDivider">
-            <h3>Very old pictures, I don't know if i should add or remove.</h3>
-          </div>
+          <p>
+            Being nonchalant because I'm confident and calm with how I can
+            identify additional impact areas.
+          </p>
         </div>
       </div>
 
+      <div className="centerDivider">
+        <h3>Here are some projects</h3>
+      </div>
+
+      <div className="PageWrapper4">
+        <ul>
+          <div className="rowprojects">
+            <a
+              href="https://github.com/realadamsmith/ArchivedApp"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="mediaproj">
+                <div className="overlay"></div>
+                <p>Lagruni (ArchivedApp)</p>
+              </div>
+            </a>
+            <a
+              href="https://youtu.be/RnvWDhFHzJQ?si=eCdicQDNNz0z_l1B"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+
+
+
+
+ <div className="media2">
+    <img
+      width="350"
+      height="200"
+      src="https://cdn.discordapp.com/attachments/866780152493768751/1207736255895306330/lagruni1.png?ex=65e0bb0a&is=65ce460a&hm=1a5ec1a05aaa5ae0c7221176fbf90be1dd87612d674c9847e82f476181ca4cb6&"
+      alt="Lagruni (ArchivedApp)"
+    />
+  </div>
+
+
+
+  
+            </a>
+          </div>
+          <div className="rowprojects">
+            <a
+              href="https://github.com/realadamsmith/MarketBuddy"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="mediaproj">
+                <div className="overlay"></div>
+                <p>MarketBuddy</p>
+              </div>
+            </a>
+          </div>
+
+          <div className="rowprojects">
+            <a
+              href="https://github.com/realadamsmith/MeGraph"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="mediaproj">
+                <div className="overlay"></div>
+                <p>MeGraph</p>
+              </div>
+            </a>
+          </div>
+
+          <div className="rowprojects">
+            <a
+              href="https://github.com/realadamsmith/MeGraphserver"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="mediaproj">
+                <div className="overlay"></div>
+                <p>MeGraphServer</p>
+              </div>
+            </a>
+          </div>
+        </ul>
+      </div>
+
+      <div className="centerDivider">
+        <h3>Very old pictures, I don't know if i should add or remove.</h3>
+      </div>
       <div className="PageWrapper2">
         <ul>
           <div className="media">
