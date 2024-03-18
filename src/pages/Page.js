@@ -114,9 +114,9 @@ const Page = () => {
 
  <div className="media2">
     <img
-      width="350"
-      height="200"
-      src="https://cdn.discordapp.com/attachments/866780152493768751/1207736255895306330/lagruni1.png?ex=65e0bb0a&is=65ce460a&hm=1a5ec1a05aaa5ae0c7221176fbf90be1dd87612d674c9847e82f476181ca4cb6&"
+      width="750"
+      height="500"
+      src="https://firebasestorage.googleapis.com/v0/b/mallshop-5fa49.appspot.com/o/Screenshot%202024-03-18%20082841.png?alt=media&token=1b499841-0d91-4205-852b-a84a30f92ddd"
       alt="Lagruni (ArchivedApp)"
     />
   </div>
@@ -125,6 +125,16 @@ const Page = () => {
 
   
             </a>
+
+            {/* <div className="media2">
+    <img
+      width="750"
+      height="500"
+      src="https://firebasestorage.googleapis.com/v0/b/mallshop-5fa49.appspot.com/o/Screenshot%202024-03-18%20082841.png?alt=media&token=1b499841-0d91-4205-852b-a84a30f92ddd"
+      alt="Lagruni (ArchivedApp)"
+    />
+  </div> */}
+
           </div>
           <div className="rowprojects">
             <a
