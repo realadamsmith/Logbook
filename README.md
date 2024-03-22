@@ -1,5 +1,5 @@
 
-[https://coordinators-2024.web.app](https://realadamsmith.github.io/Logbook/#/page/Inbox)
+https://realadamsmith.github.io/Logbook/#/page/Inbox
 
 10/12/23
 Heroku outdated.
