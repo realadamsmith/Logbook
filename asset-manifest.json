@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Logbook/static/css/main.98784b78.css",
-    "main.js": "/Logbook/static/js/main.15dde648.js",
+    "main.css": "/Logbook/static/css/main.fb8b77eb.css",
+    "main.js": "/Logbook/static/js/main.d9b23a64.js",
     "static/js/738.f98d1230.chunk.js": "/Logbook/static/js/738.f98d1230.chunk.js",
     "static/js/3.787d0cce.chunk.js": "/Logbook/static/js/3.787d0cce.chunk.js",
     "static/js/372.16f2d8db.chunk.js": "/Logbook/static/js/372.16f2d8db.chunk.js",
@@ -16,15 +16,15 @@
     "static/media/IMG_1482.jpeg": "/Logbook/static/media/IMG_1482.360848986289cbf8ab04.jpeg",
     "static/media/MaleyLabChristmas.jpeg": "/Logbook/static/media/MaleyLabChristmas.cb8e4e5077401edf56a5.jpeg",
     "index.html": "/Logbook/index.html",
-    "main.98784b78.css.map": "/Logbook/static/css/main.98784b78.css.map",
-    "main.15dde648.js.map": "/Logbook/static/js/main.15dde648.js.map",
+    "main.fb8b77eb.css.map": "/Logbook/static/css/main.fb8b77eb.css.map",
+    "main.d9b23a64.js.map": "/Logbook/static/js/main.d9b23a64.js.map",
     "738.f98d1230.chunk.js.map": "/Logbook/static/js/738.f98d1230.chunk.js.map",
     "3.787d0cce.chunk.js.map": "/Logbook/static/js/3.787d0cce.chunk.js.map",
     "372.16f2d8db.chunk.js.map": "/Logbook/static/js/372.16f2d8db.chunk.js.map",
     "856.8a6351f7.chunk.js.map": "/Logbook/static/js/856.8a6351f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98784b78.css",
-    "static/js/main.15dde648.js"
+    "static/css/main.fb8b77eb.css",
+    "static/js/main.d9b23a64.js"
   ]
 }
